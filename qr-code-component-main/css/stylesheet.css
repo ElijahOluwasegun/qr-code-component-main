@@ -1,0 +1,69 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.outfit-<uniquifier> {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+
+body {
+    background-color: rgba(189, 222, 255, 0.788);
+}
+
+.qr_sect {
+    display: flex;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    border: 12px;
+    border-radius: 20px;
+    width: 22%;
+    height: 400px;
+}
+
+.qr_image, img {
+    display: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 89%;
+    height: 60%; 
+    border-radius: 5%;
+    /* margin-top: 10px;
+    margin-left: 300px; */
+    
+}
+
+.para1, p {
+    display: inherit;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-wrap: wrap;
+    margin-left: auto;
+    margin-right:auto;
+    
+}
+
+.para2, p {
+    display: inherit;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    text-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
