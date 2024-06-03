@@ -1,0 +1,73 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.outfit-<uniquifier> {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+
+body {
+    background-color: rgba(189, 222, 255, 0.788);
+}
+
+.qr_sect {
+    display: block;
+    margin-top: 6.25em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.625em;
+    background-color: rgb(255, 255, 255);
+    border: 0.75em;
+    border-radius: 1.25em;
+    width: 22%;
+    height: 2500%;
+}
+
+#qr_image, img {
+    display: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.3125em;
+    margin-bottom: 0.3125em;
+    width: 89%;
+    height: 60%; 
+    border-radius: 5%;
+}
+
+.para1{
+    display: inherit;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+    color: rgb(8, 24, 85);
+    text-align: center;
+    padding: 0.625em 1.5625em 0em 1.5625em;
+    margin-left: 0em;
+    margin-right:0em;
+    margin-bottom: -0.625em;
+}
+
+.para2 {
+    display: inherit;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: rgba(0, 0, 0, 0.404);
+    text-align: center;
+    text-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.625em 2.1875em 0.625em 2.1875em;
+}
+
+.attribution {
+    font-size: 0.688rem; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
