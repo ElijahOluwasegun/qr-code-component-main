@@ -10,7 +10,7 @@
 
 
 body {
-    background-color: rgba(189, 222, 255, 0.788);
+    background-color: rgba(203, 229, 255, 0.788);
 }
 
 .qr_sect {
@@ -70,4 +70,55 @@ body {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 480px) {
+    .qr_sect {
+        display: block;
+        margin-top: 5em;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 0.450em;
+        background-color: rgb(255, 255, 255);
+        border: 0.75em;
+        border-radius: 1.25em;
+        width: 90%;
+        height: 72vh;
+    }
+
+    #qr_image, img {
+        display: inherit;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0.450em;
+        margin-bottom: 0.3125em;
+        width: 89%;
+        height: 45vh; 
+        border-radius: 5%;
+    }
+    
+    .para1  {
+        display: inherit;
+        font-family: "Outfit", sans-serif;
+        font-weight: 700;
+        font-size: 5.8vw;
+        color: rgb(8, 24, 85);
+        text-align: center;
+        padding: 0.100em 1.1em 0em 1.1em;
+        margin-left: 0em;
+        margin-right:0em;
+        margin-bottom: -0.505em;
+    }
+    .para2 {
+        display: inherit;
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-size: 3.8vw;
+        color: rgba(0, 0, 0, 0.404);
+        text-align: center;
+        text-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0.45em 2.5em 2em 2.5em;
+    }
 }
