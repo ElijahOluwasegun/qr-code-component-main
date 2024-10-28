@@ -37,7 +37,6 @@ I started by creating the basic HTML structure.
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - CSS Media queries
 - [Styled Components](https://fonts.google.com/) - For font styles
 
