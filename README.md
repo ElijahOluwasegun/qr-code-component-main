@@ -13,9 +13,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -91,21 +89,10 @@ Areas I would love to improve is writing good git commit messages. I would also 
 - [Mozilla](https://developer.mozilla.org/en-US/) - This helped me for CSS flexbox. I really liked the detailed information and clarity and will use it going forward.
 - [TheOdinProject] (https://www.theodinproject.com/) - This helped me for everything, from HTML, CSS to understanding GIT, Github and linux installation.
 - [W3schools](https://www.w3schools.com/) - This is an amazing resource which helped me to quickly understand the basics of HTML and CSS. I'd recommend it to anyone anxious to learn web development.
-- [Example resource 1](https://nekocalc.com/px-to-percentage-converter) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Neko Calc](https://nekocalc.com/) - An underrated resource that supported me to make my solution more responsive. I really liked the simplicity in using the website and recommend it to anyone trying to convert pixel or other values to a required format.
+- [Google Fonts](https://fonts.google.com/) - A free resource that helped me to find the font for my text. 
 
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@ElijahOluwasegun](https://www.frontendmentor.io/profile/ElijahOluwasegun)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
