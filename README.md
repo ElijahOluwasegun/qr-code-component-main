@@ -24,14 +24,14 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ![Mobile - version](./images/mobile_screenshot_solution_frontend_mentor_qr_code_component.png)
 ![Mobile - version](./images/mobile_alternative_screenshot_solution_frontend_mentor_qr_code_component.png)
 
-
 ### Links
 
 - Solution URL: [(https://github.com/ElijahOluwasegun/qr-code-component-main)]
 - Live Site URL: [(https://elijaholuwasegun.github.io/qr-code-component-main/)]
 
 ## My process
-I started by creating the basic HTML structure.
+I started by creating the basic HTML structure. Then I added my CSS properties. After this, I pushed my code to Github and deployed it on Github pages.
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -39,8 +39,6 @@ I started by creating the basic HTML structure.
 - Flexbox
 - CSS Media queries
 - [Styled Components](https://fonts.google.com/) - For font styles
-
-
 
 ### What I learned
 
