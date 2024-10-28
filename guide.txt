@@ -1,3 +1,0 @@
-1. Put all files and directories in outer qr-code-component-main
-2. Delete README.md and make README-template.md as README
-3. Add padding at " SCan " 
