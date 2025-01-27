@@ -9,14 +9,14 @@ body {
     background-color: rgba(203, 229, 255, 0.788);
 }
 
-.outer_sect {
+.outer_div {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.qr_sect {
+.inner_div {
     display: flex;
     flex-direction: column;
     justify-self: center;
@@ -39,7 +39,7 @@ body {
     border-radius: 5%;
 }
 
-.para1{
+.text1{
     display: flex;
     font-family: "Outfit", sans-serif;
     font-weight: 700;
@@ -51,7 +51,7 @@ body {
     margin-right:0em;
 }
 
-.para2 {
+.text2 {
     display: flex;
     font-family: "Outfit", sans-serif;
     font-weight: 400;
@@ -73,7 +73,7 @@ body {
 }
 
 @media (max-width: 480px) {
-    .qr_sect {
+    .inner_div {
         display: flex;
         flex-direction: column;
         justify-self: center;
@@ -97,7 +97,7 @@ body {
         border-radius: 5%;
     }
     
-    .para1  {
+    .text1  {
         display: flex;
         font-family: "Outfit", sans-serif;
         font-weight: 700;
@@ -108,7 +108,7 @@ body {
         margin-left: 0em;
         margin-right:0em;
     }
-    .para2 {
+    .text2 {
         display: flex;
         font-family: "Outfit", sans-serif;
         font-weight: 400;
