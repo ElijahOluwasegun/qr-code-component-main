@@ -9,6 +9,15 @@ body {
     background-color: rgba(203, 229, 255, 0.788);
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 2rem;
+    padding-top: 1em;
+    color: #000393;
+}
+
 .outer_div {
     display: flex;
     flex-direction: row;
@@ -21,21 +30,21 @@ body {
     flex-direction: column;
     justify-self: center;
     align-items:center;
-    gap: 1.25em;
+    gap: 0.5em;
     margin-top: 3.125em;
     padding-top: 0em;
     background-color: rgb(255, 255, 255);
     border: 0.75em;
     border-radius: 1.25em;
     width: 22%;
-    height: 2500%;
 }
 
 .qr_image, img {
     display: flex;
     margin-top: 0.926em;
+    margin-bottom: 0.6em;
     width: 89%;
-    height: 60%; 
+    height: 40%; 
     border-radius: 5%;
 }
 
@@ -58,7 +67,6 @@ body {
     font-size: 0.75rem;
     color: rgba(0, 0, 0, 0.404);
     text-align: center;
-    text-wrap: wrap;
     margin-bottom: 3.02em;
     padding: 0em 3.9875em 0em 3.9875em;
 }
@@ -72,28 +80,33 @@ body {
     color: hsl(228, 45%, 44%); 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 375px) {
+    h1 {
+        display: flex;
+        justify-content: center;
+        padding: 1em 3em 0em 3em;
+    }
+    
     .inner_div {
         display: flex;
         flex-direction: column;
         justify-self: center;
         align-items: center;
-        gap: 1.25em;
-        margin-top: 3.125em;
+        gap: 0.5em;
+        margin-top: 1em;
         padding-top: 0em;
         background-color: rgb(255, 255, 255);
         border: 0.75em;
         border-radius: 1.25em;
         width: 50%;
-        height: 85vh;
     }
 
     #qr_image, img {
         display: flex;
         margin-top: 0.450em;
         margin-bottom: 0.3125em;
-        width: 89%;
-        height: 45vh; 
+        width: 88%;
+        height: 40%; 
         border-radius: 5%;
     }
     
@@ -115,8 +128,7 @@ body {
         font-size: 2.4vw;
         color: rgba(0, 0, 0, 0.404);
         text-align: center;
-        text-wrap: wrap;
-        margin-bottom: 3.02em;
-        padding: 0em 2.8em 0em 2.8em;
+        margin-bottom: 2.2em;
+        padding: 0em 1.8em 0em 1.8em;
     }
 }
