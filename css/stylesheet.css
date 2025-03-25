@@ -88,7 +88,8 @@ h1 {
     h1 {
         display: flex;
         justify-content: center;
-        padding: 1em 3em 0em 3em;
+        padding-top: 1em;
+        text-align: center;
     }
     
     .inner_div {
