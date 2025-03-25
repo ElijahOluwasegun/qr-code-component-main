@@ -5,6 +5,9 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 0;
     background-color: rgba(203, 229, 255, 0.788);
 }
@@ -23,6 +26,7 @@ h1 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-bottom: 1em;
 }
 
 .inner_div {
