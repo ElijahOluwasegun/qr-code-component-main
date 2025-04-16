@@ -14,11 +14,10 @@ body {
 }
 
 h1 {
-    display: flex;
-    justify-content: center;
     font-family: "Outfit", sans-serif;
     font-size: 2rem;
-    padding-top: 1em;
+    text-align: center;
+    padding-top: 0.5em;
     color: #000393;
 }
 
@@ -27,51 +26,46 @@ h1 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-top: 1.125em;
     margin-bottom: 1em;
 }
 
 .inner_div {
     display: flex;
     flex-direction: column;
-    justify-self: center;
     align-items:center;
-    gap: 0.5em;
-    margin-top: 3.125em;
-    padding-top: 0em;
-    background-color: rgb(255, 255, 255);
-    border: 0.75em;
+    gap: 1em;
+    background-color: #ffffff;
+    border-width: 0.75em;
     border-radius: 1.25em;
     width: 22%;
 }
 
-.qr_image, img {
-    display: flex;
+.qr_image {
     margin-top: 0.926em;
     margin-bottom: 0.6em;
     width: 89%;
-    height: 40%; 
+    height: auto; 
     border-radius: 5%;
 }
 
-.text1{
-    display: flex;
+.text1 {
     font-family: "Outfit", sans-serif;
     font-weight: 700;
     font-size: 1.225rem;
-    color: rgb(8, 24, 85);
+    color: #081855;
     text-align: center;
     padding: 0em 1.8625em;
 }
 
 .text2 {
-    display: flex;
     font-family: "Outfit", sans-serif;
     font-weight: 400;
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     color: rgba(0, 0, 0, 0.404);
     text-align: center;
     margin-bottom: 3.02em;
-    padding: 0em 3.9875em;
+    padding: 0em 2.9875em;
 }
 
 .attribution {
@@ -80,58 +74,36 @@ h1 {
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: #3e52a3; 
 }
 
 @media (max-width: 375px) {
     h1 {
-        display: flex;
-        justify-content: center;
         padding-top: 1em;
-        text-align: center;
+    }
+
+    .outer_div {
+        margin-top: 1em;
     }
     
     .inner_div {
-        display: flex;
-        flex-direction: column;
-        justify-self: center;
-        align-items: center;
         gap: 0.5em;
-        margin-top: 1em;
-        padding-top: 0em;
-        background-color: rgb(255, 255, 255);
-        border: 0.75em;
-        border-radius: 1.25em;
         width: 50%;
     }
 
-    #qr_image, img {
-        display: flex;
-        margin-top: 0.450em;
+    .qr_image {
+        margin-top: 0.690em;
         margin-bottom: 0.3125em;
         width: 88%;
-        height: 40%; 
-        border-radius: 5%;
+        height: auto; 
     }
     
     .text1  {
-        display: flex;
-        font-family: "Outfit", sans-serif;
-        font-weight: 700;
         font-size: 3.5vw;
-        color: rgb(8, 24, 85);
-        text-align: center;
         padding: 0em 1.1em;
-        margin-left: 0em;
-        margin-right:0em;
     }
     .text2 {
-        display: flex;
-        font-family: "Outfit", sans-serif;
-        font-weight: 400;
         font-size: 2.4vw;
-        color: rgba(0, 0, 0, 0.404);
-        text-align: center;
         margin-bottom: 2.2em;
         padding: 0em 1.8em;
     }
